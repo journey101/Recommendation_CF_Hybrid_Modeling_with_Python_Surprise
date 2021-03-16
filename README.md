@@ -13,10 +13,10 @@
 
 # 사용한 데이터
 <데이터 주요 항목/설명>
-user_id: a unique id for the customer
-item_id: unique product id
-rating: rating for the product
-category: the category of the product
-rented for: purpose clothing was rented for
+- user_id: a unique id for the customer
+- item_id: unique product id
+- rating: rating for the product
+- category: the category of the product
+- rented for: purpose clothing was rented for
 
 ※원본출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
