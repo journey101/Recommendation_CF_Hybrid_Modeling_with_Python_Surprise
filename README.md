@@ -1,5 +1,5 @@
 # hybrid_recommendation_system
-패션커머스 고객TPO 맞춤 추천서비스 개발 프로젝트 
+패션커머스 고객TPO(Time,Place,Occasion) 맞춤 추천서비스(하이브리드모델) 개발 프로젝트 
 
 # 프로젝트 배경 
 대부분의 패션커머스 앱들의 추천 서비스가 아이템중심으로 이뤄지는 것을 확인하고, 유저의 취향/TPO(Time, Place, Occasion)에 맞춘 진화된 추천서비스를 제안하고자 시작한 프로젝트입니다. 
