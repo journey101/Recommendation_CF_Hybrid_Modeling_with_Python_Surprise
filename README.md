@@ -1,4 +1,4 @@
-### hybrid_recommendation_system
+### hybrid_recommendation_system_using_Surprise
 패션커머스 고객TPO(Time,Place,Occasion) 맞춤 추천서비스(하이브리드모델) 개발 프로젝트 
 
 ### 프로젝트 배경 
