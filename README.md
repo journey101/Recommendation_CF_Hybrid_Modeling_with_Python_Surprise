@@ -19,4 +19,4 @@
 - category: the category of the product
 - rented for: purpose clothing was rented for
 
-※원본출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
+※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
