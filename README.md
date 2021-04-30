@@ -34,3 +34,4 @@ Filtering and Hybrid Recommendation System"](https://d1wqtxts1xzle7.cloudfront.n
 
 ### 작업자
 - 김현재 (hyeonjae.gim@gmail.com)
+- 진행기간: 2021.2.22 - 2021.3.16
