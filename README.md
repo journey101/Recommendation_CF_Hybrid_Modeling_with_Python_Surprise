@@ -18,8 +18,13 @@
 - rating: rating for the product
 - category: the category of the product
 - rented for: purpose clothing was rented for
-
 ※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
+
+### 사용한 skill 및 지식 
+- [“Build a Recommendation Engine With Collaborative Filtering”](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
+- [“Hybrid recommendation approach”](https://www.math.uci.edu/icamp/courses/math77b/lecture_12w/pdfs/Chapter%2005%20-%20Hybrid%20recommendation%20approaches.pdf)
+- [Python Surprise 라이브러리](https://surprise.readthedocs.io/en/stable/index.html)
+- [hybrid_model_CF and Latent factor models](https://github.com/prakruti-joshi/Movie-Recommendation-System/blob/master/Code/hybrid_model.ipynb)
 
 ### 최종 기획안 
 - [구글 문서](https://drive.google.com/file/d/1UrKqMLarciv59W-wdghh57_vGo-3IMSD/view?usp=sharing)
