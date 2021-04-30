@@ -20,3 +20,9 @@
 - rented for: purpose clothing was rented for
 
 ※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
+
+### 최종 기획안 
+- [구글 문서](https://drive.google.com/file/d/1UrKqMLarciv59W-wdghh57_vGo-3IMSD/view?usp=sharing)
+
+### 작업자
+- 김현재 (hyeonjae.gim@gmail.com)
