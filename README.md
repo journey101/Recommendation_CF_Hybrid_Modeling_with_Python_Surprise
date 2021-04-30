@@ -18,6 +18,7 @@
 - rating: rating for the product
 - category: the category of the product
 - rented for: purpose clothing was rented for
+
 ※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
 
 ### 사용한 skill 및 지식 
