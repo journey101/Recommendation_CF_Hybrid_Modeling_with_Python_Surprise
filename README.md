@@ -1,5 +1,4 @@
-### Hybrid_Recommendation_Modeling_using_Surprise
-패션커머스 고객TPO(Time,Place,Occasion) 맞춤 추천모델링 프로젝트 
+### 파이썬 Surprise를 활용한 협업필터링, 하이브리드 추천모델링 (패션커머스 데이터 기반) 프로젝트
 
 ### 프로젝트 배경 
 협업필터링 추천모델과 유저의 취향/TPO(Time, Place, Occasion)특성을 추가한 하이브리드 추천모델을 비교하여 유저별 다양한 맞춤추천모델링을 구현하고자 시작한 프로젝트입니다. 
