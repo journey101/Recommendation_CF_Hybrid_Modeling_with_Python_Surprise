@@ -1,8 +1,8 @@
 ### Hybrid_Recommendation_Modeling_using_Surprise
-패션커머스 고객TPO(Time,Place,Occasion) 맞춤 추천서비스(하이브리드모델) 모델링 프로젝트 
+패션커머스 고객TPO(Time,Place,Occasion) 맞춤 추천모델링 프로젝트 
 
 ### 프로젝트 배경 
-아이템 기반 컨텐츠 추천모델에서 더 나아가, 유저의 취향/TPO(Time, Place, Occasion)에 맞춰 추천할 수 있는 추천모델링을 위한 프로젝트입니다. 
+협업필터링 추천모델과 유저의 취향/TPO(Time, Place, Occasion)특성을 추가한 하이브리드 추천모델을 비교하여 유저별 다양한 맞춤추천모델링을 개발하고자 시작한 프로젝트입니다. 
 
 ### 프로젝트 가설 및 분석방법
 (가설1) "패션커머스 데이터를 활용한 추천모델 중, 콘텐츠기반 필터링보다 협업필터링의 추천모델 성능이 더 좋을 것이다."
