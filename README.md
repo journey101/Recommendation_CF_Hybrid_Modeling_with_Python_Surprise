@@ -32,6 +32,7 @@
 ### (3) 데이터의 sparsity 가 높을 경우 SVD의 성능이 다른 모델에 비하여 생각보다 많이 높지 않을 수 있다는 점을 배움. 
 
 ### (4) 본 프로젝트에서는 nDCG 스코어에 대해서 정확히 이해하지 못하고 사용했던 부분이 있었는데, 다음 프로젝트(딥러닝 추천모델)에서 수식을 직접 코딩으로 구현해보는 과정을 통해 보완할 수 있었음.
+※다음 프로젝트: [딥러닝을 활용한 이커머스 추천모델링](https://github.com/journey101/Ecommerce-Recommendation-System-with-DeepLearning-YoutubeAlgorithm)
 
 ## 사용한 skill 및 지식 
 - [“Build a Recommendation Engine With Collaborative Filtering”](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
