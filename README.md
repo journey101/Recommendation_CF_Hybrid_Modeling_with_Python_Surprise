@@ -23,12 +23,13 @@
 ## 결과 및 배운점
 
 ### (1) KNN-baseline, SVD, SVDpp, GridSearchCV모델, Hybrid 모델의 성능 비교표 도출
-![image](https://user-images.githubusercontent.com/70046278/119331722-a605b000-bcc2-11eb-8c08-6a374f336b34.png)
-
-### (2) 타겟 유저별로 KNN-baseline, SVD, SVDpp, GridSearchCV모델, Hybrid 모델의 추천 목록 아이템 도출
 ![image](https://user-images.githubusercontent.com/70046278/119331972-ee24d280-bcc2-11eb-8822-93d7db5bcd7d.png)
 
-### (3) 데이터의 sparsity 가 높을 경우 SVD의 성능이 기대보다 높지 않을 수 있다는 점을 배움. 
+### (2) 타겟 유저별로 KNN-baseline, SVD, SVDpp, GridSearchCV모델, Hybrid 모델의 추천 목록 아이템 도출
+※아래 이미지는 Hybrid 추천 결과만 대표로 표시
+![image](https://user-images.githubusercontent.com/70046278/119332378-74411900-bcc3-11eb-8dcd-825094c1eab2.png)
+
+### (3) 데이터의 sparsity 가 높을 경우 SVD의 성능이 다른 모델에 비하여 생각보다 많이 높지 않을 수 있다는 점을 배움. 
 
 ### (4) 본 프로젝트에서는 nDCG 스코어에 대해서 정확히 이해하지 못하고 사용했던 부분이 있었는데, 다음 프로젝트(딥러닝 추천모델)에서 수식을 직접 코딩으로 구현해보는 과정을 통해 보완할 수 있었음.
 
