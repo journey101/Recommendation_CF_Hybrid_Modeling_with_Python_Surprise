@@ -20,6 +20,14 @@
 
 ※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
 
+### 결과 및 배운점
+
+(1) 타겟 유저별로 KNN-baseline, SVD, SVDpp, GridSearchCV모델, Hybrid 모델의 추천 결과 도출
+
+(2) 데이터의 sparsity 가 높을 경우 SVD의 성능이 기대보다 높지 않을 수 있다는 점을 배움. 
+
+(3) 본 프로젝트에서는 nDCG 스코어에 대해서 정확히 이해하지 못하고 사용했던 부분이 있었는데, 다음 프로젝트(딥러닝 추천모델)에서 수식을 직접 코딩으로 구현해보는 과정을 통해 보완할 수 있었음.
+
 ### 사용한 skill 및 지식 
 - [“Build a Recommendation Engine With Collaborative Filtering”](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
 - ["Survey on Collaborative Filtering, Content-based
