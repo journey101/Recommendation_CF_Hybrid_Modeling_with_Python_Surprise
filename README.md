@@ -83,7 +83,7 @@ Filtering and Hybrid Recommendation System"](https://d1wqtxts1xzle7.cloudfront.n
 > (3) 결론 / 배운 점 / 보완할 점 수정
 
 ---
-# update 사항(21.6.21): 
+# [update 사항(21.6.21):](Recommendation_CF_Hybrid_modeling_for_Fashion_update(210621).ipynb)
 - ### 1. train : test 셋 비중 변경 후 모델 성능 변화.
  - 기존 6:4 -> 변경 5:5 
  - 변경 후, gridsearchCV(SVDpp)모델의 성능이 다른 모델에 비해 약 0.08수준으로 성능이 좋다고 나옴. 기존 학습에서는 0.001수준 차이로 성능이 높았음. 
