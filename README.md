@@ -18,7 +18,7 @@
 - category: the category of the product
 - rented for: purpose clothing was rented for
 
-※데이터 출처: https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json
+※[데이터 출처](https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation?select=renttherunway_final_data.json)
 
 ## ■ 결론 요약 / 배운 점 / 향후 보완하면 좋을 점
 
@@ -81,3 +81,28 @@ Filtering and Hybrid Recommendation System"](https://d1wqtxts1xzle7.cloudfront.n
 > (2) f-measure, ndcg수치가 잘못되어 삭제. 
 > 
 > (3) 결론 / 배운 점 / 보완할 점 수정
+
+---
+# update 사항(21.6.21): 
+- ### 1. train : test 셋 비중 변경 후 모델 성능 변화.
+ - 기존 6:4 -> 변경 5:5 
+ - 변경 후, gridsearchCV(SVDpp)모델의 성능이 다른 모델에 비해 약 0.08수준으로 성능이 좋다고 나옴. 기존 학습에서는 0.001수준 차이로 성능이 높았음. 
+ - ![#모델성능비교표_ 2021-06-21 오후 11 19 28__](https://user-images.githubusercontent.com/70046278/122779270-ad7f9f80-d2e8-11eb-8dcb-97eb33782c70.png)
+
+- ### 2. 하이브리드 추천 알고리즘 계산방식 설명 추가. 
+- ### 3. 하이브리드 추천 결과에서 (CF+CBF / Item-Similarity 결과가 뜨지 않는 에러 수정) 
+ - 에러 원인: 함수 내에 'test'유저 아이디로 결과를 추출해야 하는데 train유저 아이디로 결과를 추출함. 
+ - 해결된 결과:
+ - ![#하이브리드모델2_추천결과_2021-06-21 오후 11 50 51](https://user-images.githubusercontent.com/70046278/122782797-fa18aa00-d2eb-11eb-8460-f5048932287d.png)
+
+
+- ### 4. item:user = n:n 관계 확인 부분에서 user:item = 1:n 관계임을 확실히 보여주는 `sort_values()`코딩 셀 추가. 
+
+- ### 5. SVD, SVDpp 성능이 크게 높지 않은 이유가, 충분한 크기의 데이터를 넣지 못해서 sparsity문제가 발생했을 수도 있겠다는 원인 추정. (이유: 코랩 런타임 한계로 데이터사이즈를 약 2만 Rows로 줄였기 때문)
+
+ **sparsity문제란?**
+
+ : ratings의 결측치는 모두 지웠기 때문에, 여기서 sparsity는 ratings의 missing value(결측치)가 아니라, user-item 으로 매칭한 행렬데이터에서 비어있는 공간을 의미하는 것으로 아이템:유저(N:N)관계에서 N이 충분히 크지 않다는 것을 의미. 즉, movielens처럼 아이템:유저의 N:N관계에서 N이 충분히 큰 데이터일수록 SVD, SVDpp의 성능이 좋다는 것을 의미함. 따라서, 코랩 런타임 한계로 데이터사이즈를 2만Rows크기로 줄인 점이 SVD모델 성능 저하의 원인일 수 있어보임.
+
+- ### 6. gridsearchCV(SVDpp) 모델 하이퍼파라미터 설명 주석 추가
+
