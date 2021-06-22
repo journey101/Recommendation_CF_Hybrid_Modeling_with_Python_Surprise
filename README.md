@@ -100,9 +100,8 @@ Filtering and Hybrid Recommendation System"](https://d1wqtxts1xzle7.cloudfront.n
 
 - ### 5. SVD, SVDpp 성능이 크게 높지 않은 이유가, 충분한 크기의 데이터를 넣지 못해서 sparsity문제가 발생했을 수도 있겠다는 원인 추정. (이유: 코랩 런타임 한계로 데이터사이즈를 약 2만 Rows로 줄였기 때문)
 
- **sparsity문제란?**
-
- : ratings의 결측치는 모두 지웠기 때문에, 여기서 sparsity는 ratings의 missing value(결측치)가 아니라, user-item 으로 매칭한 행렬데이터에서 비어있는 공간을 의미하는 것으로 아이템:유저(N:N)관계에서 N이 충분히 크지 않다는 것을 의미. 즉, movielens처럼 아이템:유저의 N:N관계에서 N이 충분히 큰 데이터일수록 SVD, SVDpp의 성능이 좋다는 것을 의미함. 따라서, 코랩 런타임 한계로 데이터사이즈를 2만Rows크기로 줄인 점이 SVD모델 성능 저하의 원인일 수 있어보임.
+> sparsity문제란?
+> : ratings의 결측치는 모두 지웠기 때문에, 여기서 sparsity는 ratings의 missing value(결측치)가 아니라, user-item 으로 매칭한 행렬데이터에서 비어있는 공간을 의미하는 것으로 아이템:유저(N:N)관계에서 N이 충분히 크지 않다는 것을 의미. 즉, movielens처럼 아이템:유저의 N:N관계에서 N이 충분히 큰 데이터일수록 SVD, SVDpp의 성능이 좋다는 것을 의미함. 따라서, 코랩 런타임 한계로 데이터사이즈를 2만Rows크기로 줄인 점이 SVD모델 성능 저하의 원인일 수 있어보임.
 
 - ### 6. gridsearchCV(SVDpp) 모델 하이퍼파라미터 설명 주석 추가
 
