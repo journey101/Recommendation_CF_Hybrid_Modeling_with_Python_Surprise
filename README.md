@@ -61,8 +61,6 @@
 
 ## ■ 사용한 skill 및 지식 
 - [“Build a Recommendation Engine With Collaborative Filtering”](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
-- ["Survey on Collaborative Filtering, Content-based
-Filtering and Hybrid Recommendation System"](https://d1wqtxts1xzle7.cloudfront.net/59762468/10.1.1.695.642820190617-91457-z4s1rf.pdf?1560755155=&response-content-disposition=inline%3B+filename%3DSurvey_on_Collaborative_Filtering_Conten.pdf&Expires=1619766714&Signature=F-9q98BVtHDXVaC6ERT3seUgv5WHZ1LErrBIHN-5F7CXAEeAi5uxzh1wLvuxPTEGYvI41IVOd3mPKOi4m3i9HQSkxR5YOja9ZdglhzFo-K1bho-mpG6edrxeuFCGDA8lFJOlw9a5shZiBHIyQnHWcfI3Y4SKNri3bbo2PYQhu2nMiq7qxlATg6f1HLXqKIRbkVt-hOS6yt-fFaueN3I9-Du4gh9msqRzF8c3onca7fIRGFoTe0HIwWokS3VN4AzS-HQ2zedRg5KmE7f10hu7EhPQZISNzzwhR6zHHEchqFugV1VEeGgkQjNdzFnZkMBxdiTeyBHXgajj6vdDn5T0Wg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 - [“Hybrid recommendation approach”](https://www.math.uci.edu/icamp/courses/math77b/lecture_12w/pdfs/Chapter%2005%20-%20Hybrid%20recommendation%20approaches.pdf)
 - [Python Surprise 라이브러리](https://surprise.readthedocs.io/en/stable/index.html)
 - [hybrid_model_CF and Latent factor models](https://github.com/prakruti-joshi/Movie-Recommendation-System/blob/master/Code/hybrid_model.ipynb)
