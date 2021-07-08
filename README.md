@@ -64,6 +64,7 @@
 - [“Hybrid recommendation approach”](https://www.math.uci.edu/icamp/courses/math77b/lecture_12w/pdfs/Chapter%2005%20-%20Hybrid%20recommendation%20approaches.pdf)
 - [Python Surprise 라이브러리](https://surprise.readthedocs.io/en/stable/index.html)
 - [hybrid_model_CF and Latent factor models](https://github.com/prakruti-joshi/Movie-Recommendation-System/blob/master/Code/hybrid_model.ipynb)
+- [Netflix Prize and Singular Value Decomposition](https://pantelis.github.io/cs301/docs/common/lectures/recommenders/netflix/)
 
 ## ■ 최종 기획안 
 - [구글 문서](https://drive.google.com/file/d/1UrKqMLarciv59W-wdghh57_vGo-3IMSD/view?usp=sharing)
