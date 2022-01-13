@@ -104,3 +104,7 @@
 
 - ### 6. gridsearchCV(SVDpp) 모델 하이퍼파라미터 설명 주석 추가
 
+---
+[Scoring에 대해서 update할 예정 - 21.1.13]
+- RMSE의 경우 ranking의 scoring을 타겟으로 하는 regression문제에 좀 더 적합. 따라서, ranking의 등급/점수를 기준으로 추천하는 경우 사용해도 괜찮음. 
+- 한편, 아이템 목록 자체를 추천하는 경우 즉, classification하여 추천하는 경우 precision / recall / roc / nDCG 등의 분류 평가 지표를 사용하는 것이 좀 더 적합. 
